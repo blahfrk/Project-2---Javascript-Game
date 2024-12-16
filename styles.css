@@ -1,0 +1,127 @@
+body {
+    background-image: url('background.png'); 
+    background-size: cover;
+    background-position: center;
+    font-family: 'Arial', sans-serif;
+    color: #ffffff;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background: #dc576db0;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+    padding: 40px;
+    width: 100%;
+    max-width: 600px;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(5px);
+}
+
+.row {
+    background: #a33757ad;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+    padding: 30px;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(5px);
+}
+
+h1, h4 {
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    letter-spacing: 0.5px;
+}
+
+h1.fw-bold {
+    font-size: 3rem;
+}
+
+h4.fw-bold {
+    font-size: 1.5rem;
+}
+
+.stats {
+    font-size: 1.2rem;
+}
+
+.input-group {
+    margin-top: 25px;
+}
+
+#generatedNumber {
+    margin-top: 20px;
+    font-size: 1.5rem;
+    color: #ffcc00;
+    font-weight: bold;
+}
+
+.modal-content {
+    background: #852e4ecc; 
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(5px);
+}
+
+.modal-body h1 {
+    font-size: 3rem;
+    color: #ffffff;
+}
+
+.modal-body p {
+    font-size: 1.5rem;
+    color: #cccccc;
+}
+
+.modal-footer button {
+    background-color: #4f98eb;
+    color: #ffffff;
+}
+
+.btn-primary {
+    background-color: #4f98eb;
+    border: none;
+    font-weight: bold;
+}
+
+.btn-primary:hover {
+    background-color: #2a70c0;
+}
+
+.form-control {
+    border-radius: 0.25rem;
+    background-color: #ffffff;
+    color: #ffffff;
+    border: 1px solid #444444;
+    text-align: center;
+    overflow: hidden;
+    width: 100%;
+}
+
+.form-control:focus {
+    border-color: #4f98eb;
+}
+
+#userInput {
+    width: 100%;
+    max-width: 100%;
+    text-align: center;
+    padding: 10px;
+    font-size: 1.2rem;
+}
+
+.badge {
+    font-size: 1.2rem;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #353535;
+    color: #ffffff;
+}
